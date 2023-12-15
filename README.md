@@ -33,5 +33,6 @@ Step 4: Sending Notifications
 
 You can send notifications to Notifiable entities, such as users. First, ensure that your user class uses the Notifiable trait. Then, you can send a notification like this:
 
+```
 $user->notify(new InvoicePaid($invoice));
-
+```
